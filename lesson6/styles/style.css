@@ -1,0 +1,69 @@
+
+p:first-child {
+    color: rgb(205, 103, 8);
+    padding: 10px;
+    background-color: aqua;
+}
+
+p:nth-child(2)
+{
+    color:rgb(194, 228, 149)
+}
+
+#logIn {
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    /* border-radius: 50% 10%; */
+    /* border-radius: 10% / 100%; */
+    /* border-radius: 10px 1900px / 1000px; */
+    border-radius: 10px 40px 40px 10px;
+    font-size: 24px;
+    border: solid;
+    background-color: rgb(37, 255, 161);
+    margin-top: 2%;
+    
+}
+
+span {
+    color: rgb(31, 34, 27);
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+#logIn:hover {
+    background-color: rgb(31, 184, 118);
+    cursor: pointer;
+}
+span:hover {
+    color: rgb(194, 228, 149);
+}
+
+#username {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#username:focus {
+    color: rgb(255, 130, 47);
+    background-color: aquamarine;
+}
+
+#moreInfo {
+    text-decoration: none;
+}
+
+#moreInfo:visited {
+    color: blueviolet;
+}
+
+#moreInfo:active {
+    color: rgb(0, 213, 255);
+}
+
+/* p {
+    color: chartreuse;
+} */
