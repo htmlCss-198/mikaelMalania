@@ -1,0 +1,32 @@
+.cube {
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    animation-name: cubeColorerV2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate
+}
+
+@keyframes cubeColorer {
+    from {
+        background-color: yellowgreen;
+    } 
+    to  {
+        background-color: yellow;
+    }
+}
+
+@keyframes cubeColorerV2 {
+    0% {
+        background-color: yellowgreen;
+    }
+
+    20% {
+        background-color: red;
+    }
+    50% {
+        background-color: blue;
+
+    }
+}
