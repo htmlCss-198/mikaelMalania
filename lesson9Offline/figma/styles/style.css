@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+* {
+    font-family: 'Manrope', sans-serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    align-items: center;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #323232;
+    opacity: 0.7;
+}
+
+.navLinks a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #DEDEDE;
+}
+
+.logo p {
+    font-size: 20px;
+    color: #DEDEDE
+}
+
+body {
+    margin: 0;
+    background-color: #202020;
+}
+
+#infoText {
+    font-size: 64px;
+    color: #DEDEDE;
+}
+
+#infoDesc {
+    font-size: 24px;
+    color: #959595;
+}
+
+.emailBttn {
+    padding-left: 140px;
+    padding-right: 100px;
+    padding-top: 19.5px;
+    padding-bottom: 19.5px;
+    color: #FFFFFF;
+    background-color: #9D9D9D;
+    text-decoration: none;
+    display: flex;
+    width: 200px;
+    align-items: center;
+}
+
+#emailIcon {
+    position: relative;
+    right: 20px;
+}

@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <style>
+            .menu {
+                width: 25%;
+                float: left;
+            }
+
+            .menuItem {
+                padding: 8px;
+                margin-top: 7px;
+                border-bottom: 1px solid rgb(133, 133, 133);;
+            }
+
+            main {
+                float: left;
+                width: 55%;
+                padding: 0 20px;
+                margin-top: 7px;
+            }
+
+            aside {
+                background-color: lightblue;
+                float: left;
+                width: 25%;
+                padding: 10px 15px;
+                margin-top: 7px;
+                overflow: hidden;
+            }
+
+            @media only screen and (max-width: 500px) {
+                /* ტელეფონებისთვის */
+                .menu, main, aside {
+                    width: 100%;
+                }
+
+                body {
+                    background-color: cadetblue;
+                }
+            }
+
+            @media only screen and (min-width: 501px) and (max-width: 1024px) {
+                /* ტაბლეტებისთვის */
+                .menu {
+                    width: 80%;
+                    padding: 0;
+                }
+
+                aside {
+                    width: 100%;
+                }
+
+                body {
+                    background-color: rgb(95, 160, 95);
+                }
+
+            }
+
+            @media only screen and (min-width: 1025px) {
+                /* დესკტოპ მოწყობილობები */
+                .menu {
+                    width: 100%;
+                    padding: 0;
+                }
+
+                aside {
+                    width: 100%;
+                }
+
+                body {
+                    background-color: rgb(160, 122, 95);
+                }
+
+            }
+
+        </style>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header style="background-color: rgb(207, 206, 206); padding: 15px;">
+            <h1>ამბავი ერთ მშვენიერ ქალაქზე</h1>
+            <h3>შეცვალეთ ეკრანის ზომა ეფექტის სანახავად</h3>
+        </header>
+        <nav style="overflow: hidden;" class="menu">
+            <div class="menuItem">ისტორია</div>
+            <div class="menuItem">ტრანსპორტი</div>
+            <div class="menuItem">გალერეა</div>
+            <div class="menuItem">ტური</div>
+        </nav>
+        
+        <main>
+            <h2>ქალაქის ისტორია</h2>
+            <p>ბარსელონა რომაელებმა დააარსეს, მაგრამ შემდეგში ბარსელონის საგრაფოს დედაქალაქი გახდა. არაგონის სამეფოსთან შერწყმის შემდეგ, ბარსელონა არაგონების სამეფო ტახტის ერთ-ერთი უმნიშვნელოვანესი ქალაქი ხდება. </p>
+
+            <img src="https://www.kayak.co.uk/news/wp-content/uploads/sites/5/2022/01/DEST_SPAIN_BARCELONA_PARC-GUELL_GAUDI_GettyImages-1137803766.jpg" style="width: 100%;">
+        </main>
+
+        <aside>
+            <h2>რა?</h2>
+            <p>ქალაქი ბარსელონა, ისტორიული, საინტერესო და თავგადასავლებით სავსე.</p>
+
+            <h2>სად?</h2>
+            <p>ესპანეთის შუაგულში, ისტორიულ ადგილას.</p>
+
+            <h2>თანხა?</h2>
+            <p>სიარული უფასოა!</p>
+        </aside>
+    </body>
+</html>
