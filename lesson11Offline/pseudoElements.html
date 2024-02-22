@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <style>
+            p::first-letter {
+                font-size: 28px;
+                color: red;
+            }
+
+            p::first-line {
+                font-weight: bold;
+            }
+
+            p::before {
+                content: "Here goes some added data ";
+            }
+
+            div::before {
+                content: url("https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D");
+                /* background-size: 40%;
+                background-position: center; */
+                /* height: 100px; */
+                width: 1000px;
+            }
+
+            div::after {
+                content: " => I added this part after the initial p tag data";
+            }
+
+            ::marker {
+                color: rgb(47, 255, 92);
+                font-size: 23px;
+            }
+
+            ::selection {
+                color: yellow;
+                background: brown;
+            }
+            ::cue()
+        </style>
+    </head>
+    <body>
+        <p>Here is some top data</p>
+        <div>Some random stuff</div>
+        <ul id="data1">
+            <li>Item 1</li>
+            <li>item 2</li>
+        </ul>
+        <p>We can use first-letter pseudo element to change design of the first element in the paragraph.</p>
+    </body>
+</html>
